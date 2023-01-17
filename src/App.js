@@ -11,6 +11,8 @@ function App() {
 
           This is Dheekksha's first assignment.
 
+          Submission first week.
+
         </p>
         <a
           className="App-link"
