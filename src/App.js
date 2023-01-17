@@ -7,11 +7,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          HIIII anvithaaa,
+          My favourite akka, Have a happy happy happy Birthday!!!
+          You are the nicest kindest person Iv met and im so lucky to have you as a roommate <3.
+          Have a blast on ur bday! I wish you all the succeess and blessings for everything this upcoming year and Il be there to see all of it.
+          HAPPY BIRTHDAY BROOO
+          <3
 
-          This is Dheekksha's first assignment.
-
-          Submission first week.
 
         </p>
         <a
