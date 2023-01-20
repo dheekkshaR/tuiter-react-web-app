@@ -1,24 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          HIIII anvithaaa,<br/>
-          My favourite akka, Have a happy happy happy Birthday!!!<br/>
-          You are the nicest kindest person Iv met and im so lucky to have you as a roommate<br/>
-          Have a blast on ur bday! <br/>
-          I wish you all the succeess and blessings for everything this upcoming year and Il be there to see all of it.<br/>
-          HAPPY BIRTHDAY BROOO
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
 
-        </p>
+            This is Dheekksha's first assignment.
 
-      </header>
-    </div>
+            Submission first week.
+
+          </p>
+          <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
   );
 }
-
 export default App;
