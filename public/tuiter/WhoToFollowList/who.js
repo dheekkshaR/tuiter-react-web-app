@@ -8,7 +8,7 @@ const who = [
         userName: 'Relativity Space ',
         handle: 'relativityspace', },
     {
-        avatarIcon: '../../images/virgin.png',
+        avatarIcon: '../../images/virging.jpeg',
         userName: 'Virgin Galactic ',
         handle: 'virgingalactic', },
     {
