@@ -9,6 +9,9 @@ const NavigationSidebar = () => {
     if(paths[2]!='') {
         active=paths[2];
     }
+    else{
+        active='home';
+    }
     console.log(active)
 
     return (
