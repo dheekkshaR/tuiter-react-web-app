@@ -6,6 +6,7 @@ import Explore from "./explore";
 
 const ExploreComponent = () => {
     return (
+
         <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
                 <Explore/>

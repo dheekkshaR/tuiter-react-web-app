@@ -1,6 +1,5 @@
 import React from "react";
-import posts from "./posts.json";
-const PostItem = (posts) => {
+const PostItem = ({posts}) => {
     let imageDescription = '';
     if (posts.imageDescription !== '') {
         imageDescription =
@@ -8,7 +7,7 @@ const PostItem = (posts) => {
                 className="ml-3 ml-lg-1 p-2 border border-top-0 border-light wd-rounded-bottom-around">
                 <h6> {posts.imageTitle} </h6>
                 <span className="fw-bolder">{posts.imageDescription}</span> <br/>
-                <i className="fa-solid fa-link text-secondary"></i>
+                <i className="fas fa-link text-secondary"></i>
                 <span className="text-secondary">{posts.imageLink}</span>
             </div>
     }
@@ -26,7 +25,7 @@ const PostItem = (posts) => {
 
                     <div className="ms-3 ms-lg-0 ">
                         <b>{posts.userName} <i
-                            className="text-primary fa-sharp fa-solid fa-circle-check"></i>
+                            className="fas fa-check-circle float-left"></i>
                         </b>
                         <span className="text-secondary"> @{posts.handle} . {posts.time} </span>
                     </div>
