@@ -5,8 +5,8 @@ const WhoToFollowListItem = ({who}) => {
 
         <li className="list-group-item">
             <div className="row align-items-center">
-                <div className="col-2 ps-0 position-relative">
-                    <img className="ps-1 float-left rounded-circle"
+                <div className="col-2 ">
+                    <img className="wd-round-image"
                          src={who.avatarIcon} height="40px" width="40px" alt=""/>
                 </div>
                 <div className="col-6 ">

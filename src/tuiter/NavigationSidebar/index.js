@@ -49,8 +49,8 @@ const NavigationSidebar = () => {
                 <i className="fa fa-solid fa-list ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Lists </span>
             </Link>
-            <Link id="profile-nav-bar" to=""
-                  className={`text-decoration-none list-group-item list-group-item-action ${active === 'profile'? 'active': ''}`}>
+            <Link id="profile-nav-bar" to="/tuiter/profile"
+                  className={`text-decoration-none list-group-item list-group-item-action ${(active === 'profile' || active === 'edit-profile') ? 'active': ''}`}>
                 <i className="fa fa-solid fa-user ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Profile </span>
             </Link>

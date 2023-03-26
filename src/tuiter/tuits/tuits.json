@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 123,
+    "topic": "Web Development",
+    "userName": "ReactJS",
+    "time": "2h",
+    "image": "../../images/reactlogo.webp",
+    "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+    "tweet": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 124,
+    "topic": "",
+    "userName": "JavaScript",
+    "time": "1 day",
+    "image": "../../images/javascript-logo-png-transparent.png",
+    "title": "JavaScript is programming language that can run on browsers as well as desktops",
+    "tweet": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+  },
+  {
+    "_id": 125,
+    "topic": "Web Development",
+    "userName": "",
+    "time": "5h",
+    "image": "../../images/PngItem_2069866.png",
+    "title": "JQuery",
+    "tweet": "122K"
+  },
+  {
+    "_id": 126,
+    "topic": "Web Development",
+    "userName": "NodeJS",
+    "time": "7h",
+    "image": "../../images/nodejs-icon-logo-png-transparent.png",
+    "title": "",
+    "tweet": "120K"
+  }
+]
