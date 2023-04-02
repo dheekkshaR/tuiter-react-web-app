@@ -13,7 +13,8 @@
     "comments": "420",
     "retuits": "300",
     "likes": "35",
-    "liked": true
+    "liked": true,
+    "disliked": false
   },
   {
     "idd": 124,
@@ -29,7 +30,8 @@
     "comments": "965",
     "retuits": "200",
     "likes": "4000",
-    "liked" : false
+    "liked" : false,
+    "disliked": false
   },
   {
     "idd": 129,
@@ -44,7 +46,8 @@
     "comments": "965",
     "retuits": "200",
     "likes": "4000",
-    "liked" : true
+    "liked" : true,
+    "disliked": false
   },
   {
     "idd": 128,
@@ -59,6 +62,7 @@
     "comments": "965",
     "retuits": "200",
     "likes": "4000",
-    "liked" : false
+    "liked" : false,
+    "disliked": true
   }
 ]

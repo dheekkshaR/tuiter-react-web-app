@@ -1,12 +1,13 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
-
+//import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 const TuitItem = ({tuits}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        console.log(id);
+        dispatch(deleteTuitThunk(id));
     }
 
     let imageDescription = '';
@@ -22,7 +23,7 @@ const TuitItem = ({tuits}) => {
     }
 
     return (
-        <li className="list-group-item border">
+        <li key={tuits.idd} className="list-group-item border">
             <div className="row">
 
                 <div className="col-1"  >
@@ -36,9 +37,9 @@ const TuitItem = ({tuits}) => {
                         <b>{tuits.userName} <i
                             className="text-primary fa-sharp fa-solid fa-circle-check"></i>
                         </b>
-                        <span className="text-secondary"> @{tuits.handle} . {tuits.time} </span>
+                        <span className="text-secondary"> {tuits.handle} . {tuits.time} </span>
                         <i className="bi bi-x-lg float-end"
-                           onClick={() => deleteTuitHandler(tuits._id)}> </i>
+                           onClick={() => deleteTuitHandler(tuits.idd)}> </i>
                     </div>
 
                     <div className="ms-3 ms-lg-0">

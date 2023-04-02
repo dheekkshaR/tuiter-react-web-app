@@ -5,13 +5,11 @@ import {useLocation} from "react-router";
 const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    let active = "explore";
-    if(paths[2]!='') {
+    let active = 'home';
+    if(paths[2]!=='') {
         active=paths[2];
     }
-    else{
-        active='home';
-    }
+
     console.log(active)
 
     return (
@@ -29,22 +27,22 @@ const NavigationSidebar = () => {
                 <i className="fa fa-solid fa-hashtag ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Explore </span>
             </Link>
-            <Link id="notifications-nav-bar" to=""
+            <Link id="notifications-nav-bar" to="/tuiter/"
                   className={`text-decoration-none list-group-item list-group-item-action ${active === 'notifications'? 'active': ''}`}>
                 <i className="fa fa-solid fa-bell ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Notifications </span>
             </Link>
-            <Link id="messages-nav-bar" to=""
+            <Link id="messages-nav-bar" to="/tuiter/"
                   className={`text-decoration-none list-group-item list-group-item-action ${active === 'messages'? 'active': ''}`}>
                 <i className="fa fa-solid fa-envelope ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Messages </span>
             </Link>
-            <Link id="bookmarks-nav-bar" to=""
+            <Link id="bookmarks-nav-bar" to="/tuiter/"
                   className={`text-decoration-none list-group-item list-group-item-action ${active === 'bookmarks'? 'active': ''}`}>
                 <i className="fa fa-solid fa-bookmark ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Bookmarks </span>
             </Link>
-            <Link id="lists-nav-bar" to=""
+            <Link id="lists-nav-bar" to="/tuiter/"
                   className={`text-decoration-none list-group-item list-group-item-action ${active === 'lists'? 'active': ''}`}>
                 <i className="fa fa-solid fa-list ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Lists </span>
@@ -54,7 +52,7 @@ const NavigationSidebar = () => {
                 <i className="fa fa-solid fa-user ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> Profile </span>
             </Link>
-            <Link id="more-nav-bar" to=""
+            <Link id="more-nav-bar" to="/tuiter/"
                   className={`text-decoration-none list-group-item list-group-item-action ${active === 'more'? 'active': ''}`}>
                 <i className="fa fa-minus-circle ps-1"></i>
                 <span className="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ps-1"> More </span>
