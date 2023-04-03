@@ -1,7 +1,7 @@
 
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./who-to-follow-list/index.js";
-import Explore from "./explore";
+import ExploreComponent from "./explore";
 
 import HomeComponent from "./home";
 import {Routes, Route} from "react-router";
@@ -33,7 +33,7 @@ function Tuiter() {
                 <Routes>
                     <Route index element={<HomeComponent/>}/>
                     <Route path="home" element={<HomeComponent/>}/>
-                    <Route path="explore" element={<Explore/>}/>
+                    <Route path="explore" element={<ExploreComponent/>}/>
                     <Route path="profile" element={<ProfileComponent/>}/>
                     <Route path="edit-profile" element={<EditProfile/>}/>
                 </Routes>
