@@ -37,7 +37,7 @@ const NavigationSidebar = (currentpage) => {
                 <a class=" text-decoration-none list-group-item list-group-item-action ${isHomeActive ? 'active' : ''}" href="../HomeScreen/index.html">
                     <i class="fas fa-house-user">
                     </i> <span class="d-none d-xxl-inline-block d-xl-inline-block d-lg-none ">Home</span>  </a>
-                <a class=" text-decoration-none list-group-item list-group-item-action  ${isExploreActive ? 'active' : ''} " href="../explore_old/index_a5.html">
+                <a class=" text-decoration-none list-group-item list-group-item-action  ${isExploreActive ? 'active' : ''} " href="../explore/index_a5.html">
                     <i class="fa fa-solid fa-hashtag"></i> <span class="d-none d-xxl-inline-block d-xl-inline-block d-lg-none "> Explore </span> </a>
                 <a class=" text-decoration-none list-group-item list-group-item-action ${isNotificationActive ? 'active' : ''}"  href="#">
                     <i class="fa fa-solid fa-bell"></i> <span class="d-none d-xxl-inline-block d-xl-inline-block d-lg-none "> Notifications </span> </a>
