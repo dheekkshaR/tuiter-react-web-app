@@ -23,7 +23,7 @@ function exploreComponent() {
    `);
 }
 $(exploreComponent);*/
-import NavigationSidebar from "../NavigationSidebar/index.js";
+import NavigationSidebar from "../NavigationSidebar_old/index.js";
 import WhoToFollowList from "../WhoToFollowList/WhoToFollowList.js";
 import ExploreComponentS from "./ExploreScreen/ExploreComponent.js";
 

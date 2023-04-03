@@ -1,7 +1,7 @@
 
-import NavigationSidebar from "../NavigationSidebar/index.js";
+import NavigationSidebar from "../NavigationSidebar_old/index.js";
 import WhoToFollowList from "../WhoToFollowList/WhoToFollowList.js";
-import ExploreComponentS from "../explore/ExploreScreen/ExploreComponent.js";
+import ExploreComponentS from "../explore_old/ExploreScreen/ExploreComponent.js";
 import PostSummaryList from "../PostSummaryList/PostSummaryList.js";
 import HomeComponents from "./HomePosts.js";
 
