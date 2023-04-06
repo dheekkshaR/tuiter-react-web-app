@@ -16,5 +16,13 @@ function Labs() {
         </div>
     );
 }
+/*function Labs() {
+    return(
+        <div>
+            <Assignment6/>
+        </div>
+            );
+            }*/
+
 export default Labs;
 

@@ -5,6 +5,8 @@ import Styles from "./styles";
 import ConditionalOutput
     from "./conditional-output";
 import TodoList from "./todo/todo-list";
+import Exam from "./exam";
+import App1 from "./exam/q1";
 
 function Assignment6() {
     return (
@@ -14,6 +16,9 @@ function Assignment6() {
             <ConditionalOutput/>
             <Styles/>
             <Classes/>
+            <Exam/>
+
+
         </div>
     );
 }

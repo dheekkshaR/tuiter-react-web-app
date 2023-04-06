@@ -23,7 +23,7 @@ const TuitItem = ({tuits}) => {
     }
 
     return (
-        <li key={tuits.idd} className="list-group-item border">
+        <li key={tuits._id} className="list-group-item border">
             <div className="row">
 
                 <div className="col-1"  >
@@ -39,7 +39,7 @@ const TuitItem = ({tuits}) => {
                         </b>
                         <span className="text-secondary"> {tuits.handle} . {tuits.time} </span>
                         <i className="bi bi-x-lg float-end"
-                           onClick={() => deleteTuitHandler(tuits.idd)}> </i>
+                           onClick={() => deleteTuitHandler(tuits._id)}> </i>
                     </div>
 
                     <div className="ms-3 ms-lg-0">
